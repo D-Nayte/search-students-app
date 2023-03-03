@@ -17,6 +17,24 @@ const students = [
     image: "/studentImages/andySchunke.jpg", // or "null" if you dont want to use a picture
     country: "Germany",
   },
+  {
+    firstname: "Ronnen",
+    lastName: "Podolsky",
+    descr:
+      "Former Senior Product manager at a SaaS Startup, now a Full Stack Developer! I love React and I'm looking for a team where I can contribute to a web product.",
+    frontEndPosition: true,
+    backEndPosition: false,
+    fullstackPosition: true,
+    remote: true,
+    local: true,
+    links: [
+      { label: "Github", url: "https://github.com/RonnenPodolsky" },
+      { label: "Linkedin", url: "https://www.linkedin.com/in/ronnen-podolsky-806905172/" },
+    ],
+    email: "podolsky.ronnen@gmail.com",
+    image: "/studentImages/ronnenPodolsky.png", // or "null" if you dont want to use a picture
+    country: "Israel",
+  },
 ];
 
 export function searchStudent(query) {
