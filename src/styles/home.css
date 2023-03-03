@@ -94,8 +94,13 @@ header {
 
 .students-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
+}
+
+.students-wrapper > li {
+  flex-basis: 45%;
 }
 
 .student-wrapper {
@@ -108,11 +113,12 @@ header {
   background-color: white;
   gap: 2rem;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.39);
+  margin: 0;
 }
 
 .student-wrapper div:first-child {
   height: 100%;
-  min-width: 20%;
+  min-width: 30%;
   aspect-ratio: 1/1;
   position: relative;
 }
