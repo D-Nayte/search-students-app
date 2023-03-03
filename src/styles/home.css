@@ -99,7 +99,7 @@ header {
   gap: 2rem;
 }
 
-.students-wrapper > li {
+.students-wrapper>li {
   flex-basis: 45%;
 }
 
