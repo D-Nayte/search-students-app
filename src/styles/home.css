@@ -1,11 +1,9 @@
 header {
-  height: 200px;
   position: relative;
-  height: 95vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-image: url("/backgroundSVG.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,43 +22,42 @@ header {
 }
 
 .hero-avatar {
-  width: 30%;
+  width: 15%;
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 50%;
   margin-left: 4rem;
   margin-right: 4rem;
-  transform: translateY(-25%);
 }
 
 .content-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   text-align: center;
 }
 
 .content-wrapper h1 {
+  width: 70%;
   letter-spacing: 3px;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
 .content-wrapper p {
+  width: 70%;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .search-wrapper {
-  width: 100%;
   position: relative;
 
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 55%;
   transition: all 250ms ease-in-out;
 }
 
