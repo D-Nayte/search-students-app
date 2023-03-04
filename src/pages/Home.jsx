@@ -54,7 +54,7 @@ const Home = () => {
               finding a job.
             </p>
           </div>
-          <img className="hero-avatar" src="/AgamsPicture.png" alt="" />
+          <img className="hero-avatar" src="/AgamsPicture.jpg" alt="" />
         </div>
         <div
           ref={searchElem}
