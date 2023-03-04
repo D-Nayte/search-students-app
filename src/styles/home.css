@@ -78,6 +78,7 @@ header {
   background-color: #f5f5f5;
   font-weight: 500;
   font-size: 1.8rem;
+  transition: all 100ms ease-in-out;
 }
 
 .search-wrapper .search-icon {
@@ -111,6 +112,12 @@ header {
   gap: 2rem;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.39);
   margin: 0;
+  transition: all 100ms ease-in-out;
+}
+
+.student-wrapper:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.39);
 }
 
 .student-wrapper div:first-child {
