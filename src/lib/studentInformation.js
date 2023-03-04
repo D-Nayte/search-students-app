@@ -12,6 +12,7 @@ const students = [
     links: [
       { label: "Github", url: "https://github.com/D-Nayte" },
       { label: "Linkedin", url: "https://www.linkedin.com/in/andy-schunke/" },
+      { label: "MMM Online Game", url: "https://manmakesmonster.com/" },
     ],
     email: "schunke.andy@gmail.com",
     image: "/studentImages/andySchunke.jpg", // or "null" if you dont want to use a picture
