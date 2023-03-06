@@ -9,6 +9,7 @@ Inside root directory
 ```
 npm install
 npm run dev
+
 ```
 
 # Steps
