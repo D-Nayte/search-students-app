@@ -97,7 +97,7 @@ const students = [
       },
     ],
     email: "blessedjoe2000@gmail.com",
-    image: "/studentImages/JosephUgiagbe.JPG",
+    image: "/studentImages/josephU.jpg",
     country: "United Kingdom",
     countryCode: "UK",
   },
