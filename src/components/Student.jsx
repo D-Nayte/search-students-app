@@ -1,6 +1,7 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import ReactCountryFlag from "react-country-flag";
+import { BiCopy } from "react-icons/bi";
 
 const Student = ({ studentData }) => {
   const {
@@ -18,6 +19,15 @@ const Student = ({ studentData }) => {
     country,
     countryCode,
   } = studentData;
+  const [copyed, setcopyed] = useState(false);
+  const copyToClipboard = (email) => {
+    setcopyed(true);
+    setTimeout(() => {
+      setcopyed(false);
+    }, 3000);
+    navigator.clipboard.writeText(email);
+  };
+
   return (
     <article className="student-wrapper">
       <div>
@@ -45,7 +55,10 @@ const Student = ({ studentData }) => {
         </li>
         <li>
           <h2>Email</h2>
-          <p>{email}</p>
+          <div className="email-wrapper" onClick={() => copyToClipboard(email)}>
+            <p className={copyed ? "copyed" : null}>{email}</p>
+            <BiCopy className="copy" />
+          </div>
         </li>
         <li>
           <h2>About me</h2>

@@ -167,6 +167,30 @@ header {
   gap: 1rem;
 }
 
+.email-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+.email-wrapper p {
+  position: relative;
+}
+
+.copyed::after {
+  content: "Email copied";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background-color: rgb(227, 255, 227);
+  border: 1px solid green;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  white-space: nowrap;
+}
+
+.copy:hover {
+  color: green;
+}
+
 @media (max-width: 1240px) {
   .student-wrapper {
     flex-direction: column;
