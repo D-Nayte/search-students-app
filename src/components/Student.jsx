@@ -60,7 +60,7 @@ const Student = ({ studentData }) => {
           </p>
         </li>
         <li>
-          <h2>Loacation(s)</h2>
+          <h2>Location(s)</h2>
           <p>{remote && local ? "#hybrid" : remote ? "#remote " : "#local"}</p>
         </li>
 
