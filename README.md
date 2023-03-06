@@ -1,3 +1,7 @@
+# Live version
+
+## [Click here](https://search-students-app.vercel.app/)
+
 # How to start the server
 
 Inside root directory
