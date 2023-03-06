@@ -170,6 +170,7 @@ header {
 .email-wrapper {
   display: flex;
   gap: 0.5rem;
+  cursor: pointer;
 }
 .email-wrapper p {
   position: relative;
@@ -187,7 +188,7 @@ header {
   white-space: nowrap;
 }
 
-.copy:hover {
+.email-wrapper:hover .copy {
   color: green;
 }
 
