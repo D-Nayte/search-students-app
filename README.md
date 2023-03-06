@@ -43,6 +43,7 @@ Got to
     email: String,
     image: String || null, //  "null" if you dont want to use a picture
     country: String,
+    countryCode: String,
   },
 
 ```

@@ -17,6 +17,7 @@ const students = [
     email: "schunke.andy@gmail.com",
     image: "/studentImages/andySchunke.jpg", // or "null" if you dont want to use a picture
     country: "Germany",
+    countryCode: "DE",
   },
   {
     firstname: "Noam",
@@ -35,6 +36,7 @@ const students = [
     email: "Noam.rivlin15@gmail.com",
     image: "/studentImages/noamRivlin.jpg", // or "null" if you dont want to use a picture
     country: "Israel",
+    countryCode: "IL",
   },
   {
     firstname: "Ronnen",
@@ -56,6 +58,7 @@ const students = [
     email: "podolsky.ronnen@gmail.com",
     image: "/studentImages/ronnenPodolsky.png", // or "null" if you dont want to use a picture
     country: "Israel",
+    countryCode: "IL",
   },
   {
     firstname: "Nicholas",
@@ -74,6 +77,7 @@ const students = [
     email: "niklasoti@gmail.com",
     image: "/studentImages/nicholasOtieno.png",
     country: "Sweden",
+    countryCode: "SE",
   },
 ];
 

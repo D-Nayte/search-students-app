@@ -1,5 +1,6 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
+import ReactCountryFlag from "react-country-flag";
 
 const Student = ({ studentData }) => {
   const {
@@ -15,23 +16,31 @@ const Student = ({ studentData }) => {
     email,
     image,
     country,
+    countryCode,
   } = studentData;
   return (
-    <article className='student-wrapper'>
+    <article className="student-wrapper">
       <div>
         <Image
-          src={studentData.image || '/studentImages/avatarPlaceholder.png'}
-          alt=''
-          fill='true'
-          sizes='(max-width: 768px) 50vw,
+          src={image || "/studentImages/avatarPlaceholder.png"}
+          alt=""
+          fill="true"
+          sizes="(max-width: 768px) 50vw,
               (max-width: 1200px) 30vw,
-              33vw'
+              33vw"
         />
       </div>
-      <ul className='info-wrapper'>
+      <ul className="info-wrapper">
         <li>
           <h1>
-            {firstname} {lastName} <span className='country'>{country}</span>
+            {firstname} {lastName} <span className="country">{country}</span>{" "}
+            <ReactCountryFlag
+              countryCode={countryCode}
+              svg
+              style={{
+                fontSize: ".5em",
+              }}
+            />
           </h1>
         </li>
         <li>
@@ -45,24 +54,22 @@ const Student = ({ studentData }) => {
         <li>
           <h2> Desired Role(s):</h2>
           <p>
-            {frontEndPosition && 'Frontend '}
-            {backEndPosition && 'Backend '}
-            {fullstackPosition && 'Fullstack '}
+            {frontEndPosition && "#frontend "}
+            {backEndPosition && "#backend "}
+            {fullstackPosition && "#fullstack "}
           </p>
         </li>
         <li>
           <h2>Loacation(s)</h2>
-          <p>
-            {remote && 'Remote '} {local && 'Local'}
-          </p>
+          <p>{remote && local ? "#hybrid" : remote ? "#remote " : "#local"}</p>
         </li>
 
         <li>
           <h2>Links</h2>
-          <ul className='links-wrapper'>
+          <ul className="links-wrapper">
             {links.map((link) => (
               <li key={link.url}>
-                <a href={link.url} target='_blank'>
+                <a href={link.url} target="_blank">
                   {link.label}
                 </a>
               </li>

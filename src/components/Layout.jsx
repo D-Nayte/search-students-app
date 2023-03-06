@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
         <title>Student Search</title>
       </Head>
       {children}
+      <Footer />
     </>
   );
 };

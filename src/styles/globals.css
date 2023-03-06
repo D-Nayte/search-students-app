@@ -26,6 +26,15 @@ body {
   color: rgb(73, 73, 73);
 }
 
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.25rem;
+  background-color: #dea6ff;
+  border-radius: 0.3rem;
+}
+
 #__next {
   display: flex;
   flex-direction: column;
@@ -56,6 +65,6 @@ input:focus-visible {
 @media (max-width: 850px) {
   body {
     font-size: 1.6rem;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
   }
 }
