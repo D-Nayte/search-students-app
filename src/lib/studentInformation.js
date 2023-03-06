@@ -79,6 +79,28 @@ const students = [
     country: "Sweden",
     countryCode: "SE",
   },
+  {
+    firstname: "Joseph",
+    lastName: "Ugiagbe",
+    descr:
+      "I was a wordpress web designer, I have upskilled as a JavaScript fullstack developer. I am opened to contribute to interesting projects, also to learn and upgrade my skill with new web technologies.",
+    frontEndPosition: true,
+    backEndPosition: true,
+    fullstackPosition: true,
+    remote: true,
+    local: true,
+    links: [
+      { label: "Github", url: "https://github.com/blessedjoe2000" },
+      {
+        label: "Linkedin",
+        url: "https://www.linkedin.com/in/joseph-ugiagbe-7b99b093/",
+      },
+    ],
+    email: "blessedjoe2000@gmail.com",
+    image: "/studentImages/JosephUgiagbe.JPG",
+    country: "United Kingdom",
+    countryCode: "UK",
+  },
 ];
 
 export function searchStudent(query) {
