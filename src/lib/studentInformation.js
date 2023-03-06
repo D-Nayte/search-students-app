@@ -44,7 +44,7 @@ const students = [
     descr:
       "Former Senior Product manager at a SaaS Startup, now a Full Stack Developer! I love React and I'm looking for a team where I can contribute to a web product.",
     frontEndPosition: true,
-    backEndPosition: false,
+    backEndPosition: true,
     fullstackPosition: true,
     remote: true,
     local: true,
@@ -54,6 +54,7 @@ const students = [
         label: "Linkedin",
         url: "https://www.linkedin.com/in/ronnen-podolsky-806905172/",
       },
+      { label: "Personal Website", url: "https://ronnenpodolsky.com/" },
     ],
     email: "podolsky.ronnen@gmail.com",
     image: "/studentImages/ronnenPodolsky.png", // or "null" if you dont want to use a picture
