@@ -52,3 +52,10 @@ input:focus-visible {
 .flex {
   display: flex;
 }
+
+@media (max-width: 850px) {
+  body {
+    font-size: 1.6rem;
+    padding: 2rem 2rem;
+  }
+}

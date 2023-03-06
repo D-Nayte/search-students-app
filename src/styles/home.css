@@ -165,3 +165,81 @@ header {
   display: flex;
   gap: 1rem;
 }
+
+@media (max-width: 720px) {
+  header {
+    height: auto;
+    background-position: 70% 0;
+  }
+
+  .header-content {
+    flex-direction: column-reverse;
+    height: auto;
+    align-items: center;
+  }
+
+  .content-wrapper {
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .content-wrapper h1 {
+    width: 80%;
+  }
+
+  .content-wrapper p {
+    width: 80%;
+  }
+
+  .search-wrapper {
+    margin-top: 1rem;
+    width: 70%;
+  }
+
+  .student-wrapper {
+    flex-direction: column;
+  }
+  .students-wrapper > li {
+    flex-basis: 100%;
+  }
+  .student-wrapper div:first-child {
+    min-width: 50%;
+  }
+  .hero-avatar {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    height: auto;
+    background-position: 70% 0;
+  }
+  .content-wrapper {
+    gap: 1rem;
+  }
+  .student-wrapper {
+    flex-direction: column;
+  }
+  .students-wrapper > li {
+    flex-basis: 100%;
+  }
+  .search-wrapper {
+    margin-top: 2rem;
+  }
+  .student-wrapper div:first-child {
+    min-width: 30%;
+  }
+  .hero-avatar {
+    margin: auto;
+    width: 35%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .student-wrapper {
+    flex-direction: column;
+  }
+}
