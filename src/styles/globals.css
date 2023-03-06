@@ -12,6 +12,11 @@
   list-style: none;
 }
 
+a {
+  color: #a200ff;
+  text-decoration: none;
+}
+
 html,
 body {
   max-width: 100vw;
@@ -38,7 +43,7 @@ footer {
 #__next {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 span.medium {

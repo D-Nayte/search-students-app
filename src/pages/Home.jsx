@@ -9,6 +9,8 @@ const Home = () => {
   let filtered = searchStudent(query);
   const searchElem = useRef("");
   const headerElem = useRef("");
+  const masterschoolURL =
+    "https://www.masterschool.com/?kw=masterschool&cpn=16606269324&utm_source=google&utm_medium=paid&utm_campaign=16606269324&utm_id=16606269324&utm_term=masterschool&utm_content=637273850534&campaignid=16606269324&hsa_acc=2781550509&hsa_cam=16606269324&hsa_grp=131597631581&hsa_ad=637273850534&hsa_net=google&hsa_src=g&hsa_ver=3&hsa_mt=e&hsa_kw=masterschool&hsa_tgt=kwd-389013915334&gclid=CjwKCAiAu5agBhBzEiwAdiR5tInm3RWAw-cn7DWbVzYxp9LlyMqD7p1Iow8h8Ng6D6XDp6OtkbrJnxoCNdsQAvD_BwE";
 
   const handleSearch = (input) => {
     const query = input.trim().replaceAll("-", "");
@@ -42,16 +44,22 @@ const Home = () => {
         <div className="header-content">
           <div className="content-wrapper">
             <h1>
-              Find possible candidates from Masterschool for
+              Find possible candidates from{" "}
+              <a href={masterschoolURL} target="_blank">
+                Masterschool
+              </a>{" "}
+              for
               <span className="black"> your Company</span>
             </h1>
             <p>
-              Masterschool is a global network of success-based schools led by
-              industry leaders. The immersive online training programs provide
-              the skills and training needed to build a new career in tech.
-              Masterschool programs include personal mentorship by industry
-              leaders, a robust professional network, and guidance and support
-              finding a job.
+              Hey! My name is{" "}
+              <a href="https://www.linkedin.com/in/agamm/" target="_blank">
+                Agam More
+              </a>{" "}
+              . I've personally trained and mentored all the amazing people
+              listed here. If you want a highly motivated, vetted full stack
+              developer - reach out to them (ps. Check their live github
+              projects to see how good they are)
             </p>
           </div>
           <img className="hero-avatar" src="/heroAvatar.jpg" alt="" />
