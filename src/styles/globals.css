@@ -13,8 +13,14 @@
 }
 
 a {
-  color: #a200ff;
+  color: #a786df;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+
 }
 
 html,
