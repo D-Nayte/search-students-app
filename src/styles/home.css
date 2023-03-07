@@ -99,7 +99,7 @@ header {
   gap: 2rem;
 }
 
-.students-wrapper > li {
+.students-wrapper>li {
   flex-basis: 45%;
 }
 
@@ -107,7 +107,6 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  border: 1px solid #dea6ff;
   border-radius: 1.5rem;
   padding: 2rem;
   background-color: white;
@@ -225,7 +224,7 @@ header {
     flex-direction: column;
   }
 
-  .students-wrapper > li {
+  .students-wrapper>li {
     flex-basis: 100%;
   }
 
@@ -287,7 +286,7 @@ header {
     flex-direction: column;
   }
 
-  .students-wrapper > li {
+  .students-wrapper>li {
     flex-basis: 100%;
   }
 
