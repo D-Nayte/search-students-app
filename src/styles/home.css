@@ -99,7 +99,7 @@ header {
   gap: 2rem;
 }
 
-.students-wrapper>li {
+.students-wrapper > li {
   flex-basis: 45%;
 }
 
@@ -107,11 +107,11 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  /* border: 2px solid #dea6ff; */
+  border: 1px solid #dea6ff;
   border-radius: 1.5rem;
   padding: 2rem;
   background-color: white;
-  gap: 2rem;
+  gap: 2.4rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 0;
   transition: all 100ms ease-in-out;
@@ -155,10 +155,7 @@ header {
   gap: 0.75rem;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
-
 }
-
 
 .info-wrapper li {
   gap: 0.25rem;
@@ -228,7 +225,7 @@ header {
     flex-direction: column;
   }
 
-  .students-wrapper>li {
+  .students-wrapper > li {
     flex-basis: 100%;
   }
 
@@ -290,7 +287,7 @@ header {
     flex-direction: column;
   }
 
-  .students-wrapper>li {
+  .students-wrapper > li {
     flex-basis: 100%;
   }
 
@@ -304,7 +301,6 @@ header {
     max-width: 250px;
   }
 }
-
 
 .student-wrapper li p {
   display: flex;
