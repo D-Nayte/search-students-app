@@ -107,19 +107,19 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  border: 2px solid #dea6ff;
-  border-radius: 4rem;
+  border: 1px solid #dea6ff;
+  border-radius: 1.5rem;
   padding: 2rem;
   background-color: white;
-  gap: 2rem;
-  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.39);
+  gap: 2.4rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 0;
   transition: all 100ms ease-in-out;
 }
 
 .student-wrapper:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.39);
+  transform: translateY(-5px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .student-wrapper div:first-child {
@@ -157,6 +157,12 @@ header {
   flex-direction: column;
 }
 
+.info-wrapper li {
+  gap: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
 .student-wrapper p {
   font-size: 1.6rem;
   font-weight: 400;
@@ -165,6 +171,7 @@ header {
 .links-wrapper {
   display: flex;
   gap: 1rem;
+  font-size: 1.6rem;
 }
 
 .email-wrapper {
@@ -172,6 +179,7 @@ header {
   gap: 0.5rem;
   cursor: pointer;
 }
+
 .email-wrapper p {
   position: relative;
 }
@@ -196,6 +204,7 @@ header {
   .student-wrapper {
     flex-direction: column;
   }
+
   .hero-avatar {
     width: 25%;
     max-width: 250px;
@@ -207,21 +216,27 @@ header {
     height: auto;
     background-position: 70% 0;
   }
+
   .content-wrapper {
     gap: 1rem;
   }
+
   .student-wrapper {
     flex-direction: column;
   }
+
   .students-wrapper > li {
     flex-basis: 100%;
   }
+
   .search-wrapper {
     margin-top: 2rem;
   }
+
   .student-wrapper div:first-child {
     min-width: 30%;
   }
+
   .hero-avatar {
     margin: auto;
     width: 35%;
@@ -271,15 +286,30 @@ header {
   .student-wrapper {
     flex-direction: column;
   }
+
   .students-wrapper > li {
     flex-basis: 100%;
   }
+
   .student-wrapper div:first-child {
     min-width: 50%;
   }
+
   .hero-avatar {
     margin: auto;
     width: 50%;
     max-width: 250px;
   }
+}
+
+.student-wrapper li p {
+  display: flex;
+  gap: 10px;
+}
+
+.student-wrapper li p span {
+  background-color: #a786df;
+  padding: 8px;
+  color: white;
+  border-radius: 4px;
 }
