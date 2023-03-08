@@ -107,19 +107,18 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  border: 1px solid #dea6ff;
   border-radius: 1.5rem;
   padding: 2rem;
   background-color: white;
   gap: 2.4rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.15);
   margin: 0;
   transition: all 100ms ease-in-out;
 }
 
 .student-wrapper:hover {
   transform: translateY(-5px);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: 0px 9px 12px 0 rgba(0, 0, 0, 0.15);
 }
 
 .student-wrapper div:first-child {
