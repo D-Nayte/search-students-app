@@ -54,7 +54,7 @@ const students = [
         label: 'Linkedin',
         url: 'https://www.linkedin.com/in/ronnen-podolsky-806905172/',
       },
-      { label: "Personal Website", url: "https://ronnenpodolsky.com/" },
+      { label: 'Personal Website', url: 'https://ronnenpodolsky.com/' },
     ],
     email: 'podolsky.ronnen@gmail.com',
     image: '/studentImages/ronnenPodolsky.png', // or "null" if you dont want to use a picture
@@ -106,7 +106,7 @@ const students = [
     firstname: 'Iuliia',
     lastName: 'Sutygina',
     descr:
-      "Hi, my background is in sales and hospitality. A small hobby of beta testing Coursera courses led to my career change into web development and, recently, curiosity in cyber security.",
+      'Hi, my background is in sales and hospitality. A small hobby of beta testing Coursera courses led to my career change into web development and, recently, curiosity in cyber security.',
     frontEndPosition: true,
     backEndPosition: true,
     fullstackPosition: true,
@@ -121,6 +121,28 @@ const students = [
     image: '/studentImages/iuliiaSutygina.jpg', // or "null" if you dont want to use a picture
     country: 'Canada',
     countryCode: 'CA',
+  },
+  {
+    firstname: 'Liz',
+    lastName: 'Czarny',
+    descr: `Hi, I'm Liz, a former interior designer turned web developer. My design background helps me understand user needs and create user-friendly applications, seeking a position to continue growing and excel in a team.`,
+    frontEndPosition: true,
+    backEndPosition: true,
+    fullstackPosition: true,
+    remote: true,
+    local: true,
+    links: [
+      { label: 'Github', url: 'https://github.com/Elizabeth-Cz' },
+      {
+        label: 'Linkedin',
+        url: 'https://www.linkedin.com/in/elizabeth-czarny/',
+      },
+      { label: 'Bingofy', url: 'https://bingofy.vercel.app/' },
+    ],
+    email: 'liz.cz91@gmail.com',
+    image: '/studentImages/LizCzarny.jpg', // or "null" if you dont want to use a picture
+    country: 'France',
+    countryCode: 'FR',
   },
 ];
 
