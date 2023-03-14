@@ -23,7 +23,7 @@ const students = [
     firstname: 'Noam',
     lastName: 'Rivlin',
     descr:
-      'My name is Noam, I was working in technical support and there I learned about web development. Now I’m eager to create and contribute to new and interesting projects.',
+      'While working in technical support I learned about web development. Now as a web developer I’m eager to create and contribute to new and interesting projects.',
     frontEndPosition: true,
     backEndPosition: true,
     fullstackPosition: true,
