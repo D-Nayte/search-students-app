@@ -95,12 +95,12 @@ header {
 .students-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
 }
 
 .students-wrapper > li {
-  flex-basis: 45%;
+  flex-basis: 49%;
 }
 
 .student-wrapper {
