@@ -163,9 +163,9 @@ const students = [
       console.log("String:", String),
     ],
     email: "slim.ashkar@gmail.com",
-    image: String || null, //  "null" if you dont want to use a picture
-    country: String,
-    countryCode: String,
+    image: "/studentImages/SlimAshkar.png", //  "null" if you dont want to use a picture
+    country: "Israel",
+    countryCode: "IL",
   },
 ];
 
