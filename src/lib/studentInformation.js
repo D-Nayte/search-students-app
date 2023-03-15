@@ -160,7 +160,6 @@ const students = [
         label: "Linkedin",
         url: "https://www.linkedin.com/in/slim-ashkar-333ab9236/",
       },
-      console.log("String:", String),
     ],
     email: "slim.ashkar@gmail.com",
     image: "/studentImages/SlimAshkar.png", //  "null" if you dont want to use a picture
